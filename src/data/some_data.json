@@ -1,0 +1,108 @@
+{
+  "Terms of Use - Unable to Proceed": "<article><p>The Property Tax calculator can only be used if the terms and conditions are agreed to. If you do not agree with the terms and conditions but would like to find out more information regarding property taxes, you can contact:</p><div class=\"well\"><p>Call 311 – Tax & Utility Inquiry Line</p><ul class=\"list-unstyled\"><li>Within city limits, call 311</li><li>Outside city limits, call 416-392-CITY (2489)</li><li>TTY: 416-392-0719</li><li>Monday to Friday 8 a.m. – 6 p.m.</li><li>Email: <a href='mailto:propertytax@toronto.ca'>propertytax@toronto.ca</a></li></ul></div></article>",
+  "Terms of Use Agreement": "<p>By using this application, you acknowledge that the City provides the application on an \"as is\", \"as available\", basis. The City does not make any express or implied warranties, representations or endorsements with respect to the application. In particular, without limiting the generality of the foregoing, you acknowledge that the information provided through the application:</p><ul><li>Is an estimate only and may not reflect the true amount of property taxes based on the information inputted;</li><li>Is unsuitable for purposes of transacting property sales or any other legally binding matters;</li></ul><p>To obtain information certified to be accurate, tax and utility certificates are available from the City.</p><p>The City is not responsible for, and will not be liable to you or anyone else, for any damages whatsoever, including any indirect, special, incidental or consequential damages, arising out of or in connection with your use of, or inability to use, the application.</p><p>By using this application, you agree that you will not (i) interfere with or disrupt the application or computer networks connected thereto; or (ii) delete or revise any materials or information accessible through the application.</p>",
+  "Step 1: Overview": "<article class='media articleDetail'><header><h3>2017 Property Tax Rates</h3></header><p>Your final 2017 property taxes consist of a City levy, education levy and City Building fund.<br/></p><h4>Residential Properties</h4><p>The City levy has been calculated by multiplying your property's 2017 phased-in assessment by the City's tax rate, as approved by Toronto City Council.</p><p>The education levy is calculated by multiplying your 2017 phased-in assessment by the education tax rate, as set by the Province of Ontario.</p><p>The City Building fund levy is calculated by multiplying your 2017 phased-in assessment by the City Building fund tax rate, as approved by Toronto City Council.</p><p>This property tax calculator can be used for residential properties only. Owners of non-residential properties can call the 311 – Tax & Utility Inquiry Line for information on their property taxes. Customers within Toronto city limits can call 311. Customers outside of city limits can call 416-392-CITY (2489). Tax information is available Monday to Friday, 8 a.m. to 6 p.m.</p></article>",
+  "Total": "Total Tax is $",
+  "Any other property": "* Please note that this amount is the total tax amount on your property. A portion of this goes to fund the Province’s Education system. This is why your total taxes are made up of a City rate and an Education rate.",
+  "Single Family": "Results for residential property with an assessment value of ",
+  "find out more": "<p>Find out more about <a href='http://www1.toronto.ca/City%20Of%20Toronto/Strategic%20Communications/City%20Budget/2016/PDFs/Charts/2016HowYourTaxDollarsWork.pdf' >how your tax dollar work for you.</a></p>",
+  "Year": "2017",
+  "works for you": "How your tax dollars work for you in 2017",
+  "works for you rate": "Your Contribution",
+  "appTitle": "Property Tax Calculator",
+  "propertyValueLabel": "Property Assessment",
+  "propertyValuePlaceHolder": "Property Assessment",
+  "step2": "Step 2: Calculate",
+  "step1": "Step 1: Overview",
+  "calculation": {
+    "totalTaxRate": {
+      "rate": 0.006616472,
+      "label": "Total Taxes*",
+      "breakdown_label": "Total Tax Rate"
+    },
+    "rates": {
+      "cityRate": {
+        "rate": 0.004802928,
+        "label": "City tax",
+        "color": "#00ff90"
+      },
+      "educRate": {
+        "rate": 0.00179,
+        "label": "Education tax",
+        "color": "#1000ff"
+      },
+      "otherRate": {
+        "rate": 0.000023544,
+        "label": "City Building fund",
+        "color": "#FF6384"
+      }
+    },
+    "city_detail_rates": {
+      "psb": {
+        "rate": 0.246328055454844,
+        "label": "Police Service & Board",
+        "color": "#8b160b"
+      },
+      "ttc": {
+        "rate": 0.168706274059522,
+        "label": "TTC (Incl. Wheel Trans)",
+        "color": "#149cd0"
+      },
+      "dc": {
+        "rate": 0.123644170298685,
+        "label": "Debt Charges",
+        "color": "#006eff"
+      },
+      "fs": {
+        "rate": 0.103428329684214,
+        "label": "Fire Services",
+        "color": "#ce1a29"
+      },
+      "ssh": {
+        "rate": 0.0995961157692894,
+        "label": "Shelter, Support & Housing (Inc TCHC)",
+        "color": "#00978e"
+      },
+      "pfr": {
+        "rate": 0.0779654163121297,
+        "label": "Parks, Forestry & Recreation",
+        "color": "#0a82b0"
+      },
+      "ts": {
+        "rate": 0.0517472560648048,
+        "label": "Transportation Services",
+        "color": "#00ff90"
+      },
+      "tpl": {
+        "rate": 0.0438087323597633,
+        "label": "Toronto Public Library",
+        "color": "#420294"
+      },
+      "tess": {
+        "rate": 0.0270486437675517,
+        "label": "Toronto Employment & Social Services",
+        "color": "#5d3148"
+      },
+      "cc": {
+        "rate": 0.0203030031668074,
+        "label": "Children's Services",
+        "color": "#0f6405"
+      },
+      "tps": {
+        "rate": 0.0191305646268063,
+        "label": "Toronto Paramedic Services",
+        "color": "#4b4ebb"
+      },
+      "tel": {
+        "rate": 0.00995785425090456,
+        "label": "Scarborough Subway (Transit Expansion Levy)",
+        "color": "#2915ff"
+      },
+      "other": {
+        "rate": 0.00833558418467731,
+        "label": "Other",
+        "color": "#ffed26"
+      }
+    }
+  }
+}

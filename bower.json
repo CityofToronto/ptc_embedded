@@ -1,0 +1,11 @@
+{
+  "name": "ptc_embedded",
+  "description": "Describe this app",
+  "authors": [
+    "Your name here"
+  ],
+  "private": true,
+  "dependencies": {
+    "core": "https://github.com/CityofToronto/corejs.git#4.0.1"
+  }
+}
