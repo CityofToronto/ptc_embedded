@@ -1,6 +1,6 @@
 ptc_embedded
 ===========
-Describe your app.
+Property Tax Calculator
 
 For embedded apps:
 ------------------
@@ -10,4 +10,4 @@ This app can be embedded on COT Wordpress pages with:
 
 Here is the application.json definition
 
-`{"id": "ptc_embedded", "title": "My App Name", "description": "Describe your app."}`
+`{"id": "ptc_embedded", "title": "Property Tax Calculator", "description": "Property Tax Calculator."}`

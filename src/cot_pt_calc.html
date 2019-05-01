@@ -2,18 +2,22 @@
   <section id="fh-step1">
     <h2>{{step1}}</h2>
     <div class="contentblock">
-      <div id="step1Content" data-wcm-title="Step 1: Overview" class="">
+      <div id="step1Content" data-wcm-title="Step 1: Overview" class="">{{{overview}}}
       </div>
     </div>
     <section class="btn-bar">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-3">
-          <button class="btn btn-primary" id="btn_back"><span class="glyphicon glyphicon-chevron-left"></span><span
-            class="buttontext">Back</span></button>
+        <div class="col-xs-6">
+          <button class="btn btn-primary pull-right" id="btn_back"><span
+            class="glyphicon glyphicon-chevron-left"></span>
+            <span class="buttontext">Back</span>
+          </button>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <button class="btn btn-primary" id="btn_forward"><span class="buttontext">Continue</span><span
-            class="glyphicon glyphicon-chevron-right"></span></button>
+        <div class="col-xs-6">
+          <button class="btn btn-primary" id="btn_forward">
+            <span class="buttontext">Continue</span>
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </button>
         </div>
       </div>
     </section>
@@ -24,13 +28,23 @@
       <div id="step2Content" class="well">
         <form id="numericForm" class="form-inline hidden-print">
           <div class="form-group">
-            <label for="propertyValue">{{propertyValueLabel}}</label>
-            <input name="propertyValue" id="propertyValue" type="text"
+            <div class="entryField">
+              <div class="entryField">
+            <label for="propertyValue"><strong>{{propertyValueLabel}}</strong></label>
+            <input name="propertyValue" id="propertyValue" class="form-control required"
                    placeholder="{{propertyValuePlaceHolder}}"/>
+              </div>
+            </div>
           </div>
-          <button type="submit" id="btn_calc" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-cog"></span>Calculate</button>
-          <button class="btn btn-primary btn-sm" id="btn_calc_refresh" ><span class="glyphicon glyphicon-refresh"></span>Refresh</button>
-          <button class="btn btn-primary btn-sm" id="btn_print"><span class="glyphicon glyphicon-print"></span>Print</button>
+          <button  class="btn btn-primary btn-sm" id="btn_calc">
+            <span class="glyphicon glyphicon-cog"></span>Calculate
+          </button>
+          <button class="btn btn-primary btn-sm" id="btn_calc_refresh">
+            <span class="glyphicon glyphicon-refresh"></span>Refresh
+          </button>
+          <button class="btn btn-primary btn-sm" id="btn_print">
+            <span class="glyphicon glyphicon-print "></span>Print
+          </button>
         </form>
         <div id="calcArea"></div>
       </div>

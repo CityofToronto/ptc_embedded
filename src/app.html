@@ -56,9 +56,8 @@ It is best to avoid the use of IDs on HTML elements because
 - Embedded apps could be placed on the same page more than once.
 -->
 <!-- cot-app:body -->
-
-<div class="ptc_embedded_container"></div>
-
+<div id="terms_container"></div>
+<div id="view_container"></div>
 <!-- cot-app:body end-->
 
 <!--
@@ -75,6 +74,7 @@ It should contain script references that this application requires.
 
 <!-- place your application script references here: -->
 
+<script type="text/javascript" src="/bower_components/mustache.js/mustache.js"></script>
 <script type="text/javascript" src="<!-- @echo SRC_PATH -->/scripts/main.js"></script>
 
 <!-- endbuild -->
