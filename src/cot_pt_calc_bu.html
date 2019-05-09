@@ -27,7 +27,26 @@
     <div class="contentblock">
       <div id="step2Content" class="well">
 
-        <div id="formArea"></div>
+        <form id="numericForm" class="form-inline hidden-print">
+          <div class="form-group">
+            <div class="entryField">
+              <div class="entryField">
+            <label for="propertyValue"><strong>{{propertyValueLabel}}</strong></label>
+            <input name="propertyValue" id="propertyValue" class="form-control required"
+                   placeholder="{{propertyValuePlaceHolder}}"/>
+              </div>
+            </div>
+          </div>
+          <button  class="btn btn-primary btn-sm" id="btn_calc">
+            <span class="glyphicon glyphicon-cog"></span>Calculate
+          </button>
+          <button class="btn btn-primary btn-sm" id="btn_calc_refresh">
+            <span class="glyphicon glyphicon-refresh"></span>Refresh
+          </button>
+          <button class="btn btn-primary btn-sm" id="btn_print">
+            <span class="glyphicon glyphicon-print "></span>Print
+          </button>
+        </form>
 
         <div id="calcArea"></div>
       </div>
