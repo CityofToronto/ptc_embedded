@@ -137,8 +137,6 @@ $(function () {
       html += "<tr><td style=\"text-align: right;\" colspan=\"2\"><b>" + totalTaxRate.breakdown_label + "=" + (totalTaxRate.rate * 100) + "%</b></td></tr>";
       html += "</tbody></table ></div>";
       html += "<p>" + config["find out more"] + "</p>";
-
-
       html += "<div class=\"table-responsive\"><table class=\"table\"><thead><tr><th class='col-md-6 text-right'>" + config["works for you"] + "</th><th class='col-md-6 text-left'>" + config["works for you rate"] + "</th></tr></thead><tbody>";
       $.each(details, function (i, item) {
         let rate = formatAsCurrency(((val * rates.cityRate.rate) * item.rate), 2);
