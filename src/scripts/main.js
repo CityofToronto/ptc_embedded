@@ -139,7 +139,7 @@ $(function () {
       html += "<p>" + config["find out more"] + "</p>";
       html += "<div class=\"table-responsive\"><table class=\"table\"><thead><tr><th class='col-md-6 text-right'>" + config["works for you"] + "</th><th class='col-md-6 text-left'>" + config["works for you rate"] + "</th></tr></thead><tbody>";
       $.each(details, function (i, item) {
-        let rate = formatAsCurrency(((val * rates.cityRate.rate) * item.rate), 2);
+        let rate = formatAsCurrency(((val * (rates.cityRate.rate + rates.otherRate.rate)) * item.rate), 2);
         let percent = (item.rate * 100).toFixed(0);
         html += "<tr><td class='text-right'>" + item.label + "</td>";
         html += "<td class='text-left'> ";
@@ -217,6 +217,7 @@ $(function () {
 
     $("#fh-step1, #fh-step3").addClass("hide");
     $("#fh-step2").removeClass("hide");
+    $("h2:visible").focus();
   }
 
   function showTerms() {
@@ -228,6 +229,7 @@ $(function () {
       agreedCookieName: 'cot-terms-ptc',
       onAgreed: function () {
         $("#fh-steps").removeClass("hide");
+        $("h2:visible").focus();
       }
     });
     $("h2:visible").focus();
@@ -244,7 +246,8 @@ $(function () {
       case 2:
         $("#fh-step2").addClass("hide");
         $("#fh-step1").removeClass("hide");
-        $("#btn_back").focus();
+        //$("#btn_back").focus();
+        $("h2:visible").focus();
         break;
       default:
     }
