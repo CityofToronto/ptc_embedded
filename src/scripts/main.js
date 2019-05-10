@@ -247,6 +247,7 @@ $(function () {
         $("#fh-step2").addClass("hide");
         $("#fh-step1").removeClass("hide");
         //$("#btn_back").focus();
+        $('#calcArea').empty();
         $("h2:visible").focus();
         break;
       default:
