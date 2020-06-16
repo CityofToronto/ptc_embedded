@@ -3,8 +3,8 @@
   "Any other property": "* Please note that this amount is the total tax amount on your property. A portion of this goes to fund the Province’s Education system. This is why your total taxes are made up of a City rate and an Education rate.",
   "Single Family": "Results for residential property with an assessment value of ",
   "find out more": "",
-  "Year": "2019",
-  "works for you": "<span class='pull-left'>Your 2019 City Tax Dollars at Work (numbers rounded)</span>",
+  "Year": "2020",
+  "works for you": "<span class='pull-left'>Your 2020 City Tax Dollars at Work (numbers rounded)</span>",
   "works for you rate": "Your Contribution",
   "appTitle": "Property Tax Calculator",
   "propertyValueLabel": "Property Assessment",
@@ -14,50 +14,50 @@
   "step1": "Step 1: Overview",
   "calculation": {
     "totalTaxRate": {
-      "rate": 0.0061477,
+      "rate": 0.00599704,
       "label": "Total Taxes*",
       "breakdown_label": "Total Tax Rate"
     },
     "rates": {
       "cityRate": {
-        "rate": 0.004515680,
+        "rate": 0.0044023,
         "label": "City tax",
         "color": "#00ff90"
       },
       "educRate": {
-        "rate": 0.001610000,
+        "rate": 0.00153,
         "label": "Education tax",
         "color": "#1000ff"
       },
       "otherRate": {
-        "rate": 0.000022020,
+        "rate": 0.00006474,
         "label": "City Building Fund",
         "color": "#FF6384"
       }
     },
     "city_detail_rates": {
       "psb": {
-        "rate": 0.23288410596,
-        "label": "Police Service & Board",
+        "rate": 0.235030880305,
+        "label": "Police Service",
         "color": "#8b160b"
       },
       "ttc": {
-        "rate": 0.172612582781,
+        "rate": 0.1723169416922,
         "label": "TTC (Incl. Wheel Trans)",
         "color": "#149cd0"
       },
       "dc": {
-        "rate": 0.129294701987,
-        "label": "Debt Charges",
+        "rate": 0.1300719591398,
+        "label": "Capital Finance",
         "color": "#006eff"
       },
       "fs": {
-        "rate": 0.107655629139,
-        "label": "Fire Services",
+        "rate": 0.1233295843177,
+        "label": "Fire & Paramedic Services",
         "color": "#ce1a29"
       },
       "pfr": {
-        "rate": 0.073546357616,
+        "rate": 0.0701724338064,
         "label": "Parks, Forestry & Recreation",
         "color": "#0a82b0"
       },
@@ -68,44 +68,39 @@
       },
 
       "ts": {
-        "rate": 0.051006622517,
+        "rate": 0.0547995366314,
         "label": "Transportation Services",
         "color": "#00ff90"
       },
       "ssh": {
-        "rate": 0.04967218543,
-        "label": "Shelter, Support & Housing (Inc TCHC)",
+        "rate": 0.0545719599456,
+        "label": "Shelter, Support & Housing",
         "color": "#00978e"
       },
       "tpl": {
-        "rate": 0.042460264901,
+        "rate": 0.0425630953259,
         "label": "Toronto Public Library",
         "color": "#420294"
       },
       "tess": {
-        "rate": 0.020592715232,
+        "rate": 0.0198348054319,
         "label": "Toronto Employment & Social Services",
         "color": "#5d3148"
       },
       "cc": {
-        "rate": 0.019629139073,
+        "rate": 0.0198270765817,
         "label": "Children's Services",
         "color": "#0f6405"
-      },
-      "tps": {
-        "rate": 0.019400662252,
-        "label": "Toronto Paramedic Services",
-        "color": "#4b4ebb"
-      },
-      "edc": {
-        "rate": 0.016006622517,
-        "label": "Economic Development & Culture",
-        "color": "#2915ff"
       },
       "other": {
         "rate": 0.010155629139,
         "label": "Other",
         "color": "#ffed26"
+      },
+      "cbf": {
+        "rate": 0.0239697719696,
+        "label": "City Building Fund",
+        "color": "#4b4ebb"
       }
     }
   }
