@@ -62,25 +62,29 @@
         "color": "#0a82b0"
       },
       "tchc": {
-        "rate": 0.055082781457,
+        "rate": 0.0547995366314,
         "label": "Toronto Community Housing Corporation",
         "color": "#ffed26"
-      },
-
-      "ts": {
-        "rate": 0.0547995366314,
-        "label": "Transportation Services",
-        "color": "#00ff90"
       },
       "ssh": {
         "rate": 0.0545719599456,
         "label": "Shelter, Support & Housing",
         "color": "#00978e"
       },
+      "ts": {
+        "rate": 0.0491292032757,
+        "label": "Transportation Services",
+        "color": "#00ff90"
+      },
       "tpl": {
         "rate": 0.0425630953259,
         "label": "Toronto Public Library",
         "color": "#420294"
+      },
+      "cbf": {
+        "rate": 0.0239697719696,
+        "label": "City Building Fund",
+        "color": "#4b4ebb"
       },
       "tess": {
         "rate": 0.0198348054319,
@@ -93,14 +97,9 @@
         "color": "#0f6405"
       },
       "other": {
-        "rate": 0.010155629139,
+        "rate": 0.004382751577,
         "label": "Other",
         "color": "#ffed26"
-      },
-      "cbf": {
-        "rate": 0.0239697719696,
-        "label": "City Building Fund",
-        "color": "#4b4ebb"
       }
     }
   }
